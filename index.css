@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+}
+
+header img{
+    width: 231px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 24px;
+    list-style: none;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 30px;
+}
+
+.introduction li:hover{
+    background-image: url(https://i.ytimg.com/vi/fmHLOyBdzCM/mqdefault.jpg?v=5e821ce5);
+}
+
+.introduction li a{
+    color: #ffad09;
+}
+
+.introduction li a:active{
+    color: #0100fb;
+}
+
+.discography li:hover{
+    background-image: url(https://i1.sndcdn.com/artworks-aQJaK9dHjvML1Xvq-JVobsw-t500x500.jpg);
+}
+
+.discography li a{
+    color: #0100fb;
+}
+
+.discography li a:active{
+    color: #35b812;
+}
+
+.eP li:hover{
+    background-image: url(https://i.ytimg.com/vi/dL3rCJD9Lf8/maxresdefault.jpg);
+}
+
+.eP li a{
+    color: #35b812;
+}
+
+
+.eP li a:active{
+    color: #b802c9;
+}
+
+.band-members:hover{
+    background-image: url(https://i.ytimg.com/vi/B1LaEjI9pgM/maxresdefault.jpg);
+}
+
+.band-members li a{
+    color: #b802c9;
+}
+
+.band-members li a:active{
+    color: #fe0000
+}
+
+.gallery li:hover{
+    background-image: url(https://images.genius.com/defcb0e6a91f00a3ea7b884bf23c1bca.1000x1000x1.jpg);
+}
+
+.gallery li a{
+    color: #fe0000;
+}
+
+.gallery li a:active{
+    color: #ffad00;
+}
+
+.show:hover{
+    background-image: url(https://i.ytimg.com/vi/fmHLOyBdzCM/mqdefault.jpg?v=5e821ce5);
+}
+
+.show li a{
+    color: #ffad00;
+}
+
+.show li a:active{
+    color: #0100fb;
+}
+
+section{
+    font-size: 50px;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+}
+  
+.image {
+    width: 100%;
+    height: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.img {
+    position: absolute;
+    top: 55%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#photo-members img{
+    width: 100%;
+    height: 1500px;
+    border-radius: 20px;
+
+}
+
+section{
+    margin-top: 90px;
+}
+
+body{
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #2596be;
+    background-color: black;
+}
+
+#intro h3{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffad09;
+}
+
+#intro p{
+    color: #2596be;
+}
+
+#intro:hover{
+    background-image: url(https://i2.wp.com/filtermexico.com/wp-content/uploads/2019/04/Tender_CDMX.jpg?fit=1366%2C655&ssl=1);
+    background-repeat: space;
+    background-size: 110%;
+    text-transform: ;
+}
+
+#disco h3{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    color: #0100fb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.albums:hover{
+    background-image: url(https://m.media-amazon.com/images/I/71-4Fk-zT5L._SL1216_.jpg);
+    background-repeat: space;
+    background-size: 100%;
+    font-size:50px;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+
+.albums{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2596be;
+    height: auto;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+.albums div{
+    height: 170px;
+}
+
+.albums .album-img_container{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.albums .album-img_container img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+}
+
+.albums-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.albums-item p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#ex-play h3{
+    color: #35b812;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.extended{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2596be;
+    height: auto;
+    padding: 40px 0;
+    border-radius: 20px;
+}
+
+.extended div{
+    height: 190px;
+}
+
+.extended .extended-img_container{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.extended .extended-img_container img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid;
+    border-color: white;
+}
+  
+.extended-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.extended-item p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.extended:hover{
+    background-image: url(https://cdn-media.bandofboats.com/media/ref-banner/foto-barco-brig-420-falcon-tender-band-of-boats?p=img-400);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 100%;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+
+#ban-mem{
+    color: #b802c9;
+    text-align: center;
+    justify-content: center;
+}
+
+.integrants{
+    color: #2596be;
+}
+
+.integrants img{
+    width: 100%;
+    height: 800px;
+}
+
+.integrants img:hover{
+    background-image: url(https://i.ytimg.com/vi/KSgKvutqoa4/maxresdefault.jpg);
+}
+
+#gal h3{
+    color: #fe0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#concerts h3{
+    color: #ffad00;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#concerts a{
+    color: aliceblue;
+}
