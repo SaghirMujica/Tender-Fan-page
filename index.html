@@ -7,36 +7,40 @@
     <title>My Favorite Band</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="./img/tender_icon.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
     <header>
         <nav class="nav-main">
         <div class="container">
-            <img src="data:image/png;base64,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" alt="Tender" class="image"> 
-            <div class="overlay">
+            <img src="data:image/png;base64,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" alt="Tender" class="image animate__animated animate__fadeIn"> 
+            <div class="overlay animate__animated animate__bounce">
                 <div class="img"><img src="https://partisanrecords.com/uploads/000000/1547501843882/TENDER_artist-thumbnail-1000-0x3x1360x908_q85.png" alt="Falling Sleep"></div>
             </div>
         </div>
         <ul class="nav-menu">
-            <div class="introduction">
+            <div class="introduction animate__animated animate__fadeIn">
                 <li><a href="#anchor"><h2>Introduction</h2></a></li>
             </div>
-            <div class="discography">
+            <div class="discography animate__animated animate__fadeIn">
                 <li><a href="#anchor2"><h2>Discography</h2></a></li>
             </div>
-            <div class="eP">
+            <div class="eP animate__animated animate__fadeIn">
                 <li><a href="#anchor3"><h2>Extended Plays</h2></a></li>
             </div>
-            <div class="band-members">
+            <div class="band-members animate__animated animate__fadeIn">
                 <li><a href="#anchor4"><h2>Band Members</h2></a></li>
             </div>
-            <div class="show">
+            <div class="show animate__animated animate__fadeIn">
                 <li><a href="#anchor6"><h2>Shows</h2></a></li>
             </div>
         </ul>
     </nav>
-    <div class="icon_spotify">
-        <a href="https://open.spotify.com/artist/1I9HNoVK6kOQGVZfulXVnm"><img src="./img/spotify.png" alt="spotify_tender"></a>
+    <div class="icon_spotify animate__animated animate__bounce animate__repeat-2">
+        <a href="https://open.spotify.com/artist/1I9HNoVK6kOQGVZfulXVnm" target="_blank"><img src="./img/spotify.png" alt="spotify_tender"></a>
     </div>
         
         

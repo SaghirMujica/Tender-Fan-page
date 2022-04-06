@@ -52,6 +52,10 @@ a{
     width: 4vw;
 }
 
+.introduction{
+    --animate-duration: 0.5s;
+}
+
 .introduction li:hover{
     background-image: url(https://i.ytimg.com/vi/fmHLOyBdzCM/mqdefault.jpg?v=5e821ce5);
 }
@@ -62,6 +66,10 @@ a{
 
 .introduction li a:active{
     color: #0100fb;
+}
+
+.discography{
+    --animate-duration: 1s;
 }
 
 .discography li:hover{
@@ -76,6 +84,10 @@ a{
     color: #35b812;
 }
 
+.eP{
+    --animate-duration: 1.5s;
+}
+
 .eP li:hover{
     background-image: url(https://i.ytimg.com/vi/dL3rCJD9Lf8/maxresdefault.jpg);
 }
@@ -84,9 +96,12 @@ a{
     color: #35b812;
 }
 
-
 .eP li a:active{
     color: #b802c9;
+}
+
+.band-members{
+    --animate-duration: 2s;
 }
 
 .band-members:hover{
@@ -99,6 +114,10 @@ a{
 
 .band-members li a:active{
     color: #fe0000
+}
+
+.show{
+    --animate-duration: 2.5s;
 }
 
 .show:hover{
@@ -362,4 +381,8 @@ body{
 
 #concerts a{
     color: aliceblue;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 1.5s;
 }
