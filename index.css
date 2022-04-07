@@ -197,7 +197,7 @@ body{
 }
 
 #intro h3{
-    margin-top: 300px;
+    margin-top: 150px;
     margin-bottom: 100px;
     display: flex;
     text-align: center;
@@ -209,10 +209,15 @@ body{
     color: #2596be;
 }
 
+#intro:hover p{
+    color: transparent;
+}
+
 #intro:hover{
     background-image: url(https://i2.wp.com/filtermexico.com/wp-content/uploads/2019/04/Tender_CDMX.jpg?fit=1366%2C655&ssl=1);
     background-repeat: space;
     background-size: 110%;
+    background-position: 15%;
 }
 
 #disco{
@@ -385,4 +390,22 @@ body{
 
 .animate__animated.animate__bounce {
     --animate-duration: 1.5s;
+}
+
+.animated{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.showUp{
+    animation: showUp 1s;
+}
+
+@keyframes showUp{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
